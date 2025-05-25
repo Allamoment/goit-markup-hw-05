@@ -329,6 +329,9 @@ color: #404bbf;
     max-width: 496px;
     margin: 0 auto 48px;
 }
+.container.column {
+    flex-direction: column;
+}
 
 .hero-button {
     display: inline-flex;
