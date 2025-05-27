@@ -763,13 +763,12 @@ img {
                     
                                         .modal__close:hover,
                                         .modal__close:focus {
-                                            background-color: var(--color-btn-bg-hover);
+                                            background-color: #404bbf;
                                             border: none;
                                             outline: none;
                                         }
                     
                                         .modal__icon-close {
-                                            fill: var(--color-btn-icon-fill);
                                             transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                                             width: 8px;
                                             height: 8px;
