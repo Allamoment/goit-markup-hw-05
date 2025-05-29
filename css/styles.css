@@ -916,15 +916,12 @@ img {
  }
 
 
- .user-privacy:checked+.checkbox-label, .checkbox-span {
+ .user-privacy:checked+.checkbox-label .checkbox-span {
      background-color: var(--accent-color);
      border: none;
      fill: var(--icon-fill-color);
  }
 
- .user-privacy:checked+.checkbox-label, .checkbox-icon {
-     fill: var(--icon-fill-color);
- }
 
 
  .privacy-link {
