@@ -633,6 +633,7 @@ img {
     }
         
 .footer-subscribe-text {
+    justify-content: flex-end;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
