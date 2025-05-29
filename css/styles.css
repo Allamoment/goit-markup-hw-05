@@ -916,7 +916,7 @@ img {
  }
 
 
- .user-privacy:checked+.checkbox-label .checkbox-span {
+ .user-privacy:checked+.checkbox-label, .checkbox-span {
      background-color: var(--accent-color);
      border: none;
      fill: var(--icon-fill-color);
