@@ -629,34 +629,52 @@ img {
                 }
         
 .footer__form {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 24px;
     margin-top: 16px;
     }
+
+ .footer__form-title {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+ }
         
 .footer__form-input {
-    padding: 10px 12px;
+    width: 264px;
+    height: 40px;
     border-radius: 4px;
     border: 1px solid #ffffff;
     background-color: transparent;
-    color: #ffffff;
     width: 200px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
         
 .footer__form-input::placeholder {
-     color: #8e8f99;
+    color: #ffffff;
      }
         
 .footer__form-btn {
     display: flex;
+    min-width: 165px;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     gap: 16px;
+    font-weight: 500;
+    line-height: 1.5;
     border-radius: 4px;
-    padding: 8px 24px;
-    width: 165px;
+    letter-spacing: 0.04em;
     height: 40px;
     display: inline-flex;
     align-items: center;
@@ -671,13 +689,10 @@ img {
     }
         
 .footer__form-icon {
-    fill: #ffffff;         
+    fill: #ffffff; 
+    margin-left: 16px;
+            
 }
-
-.subscribe-icon {
-    margin-left: 16px;        
- }
-
                                         
  :root {
      --color-bg-modal: #fcfcfc;
