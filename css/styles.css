@@ -624,76 +624,78 @@ img {
     fill: #f4f4fd;
         }
 
-.footer__form-section {
+.footer-form-container {
      text-align: right;
                 }
         
-.footer__form {
+.form-wrapper {
     display: flex;
     align-items: center;
     gap: 24px;
     margin-top: 16px;
     }
 
- .footer__form-title {
+.form-title {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-
- }
-        
-.footer__form-input {
+        }
+    
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+        }
+    
+    
+.input-email {
     width: 264px;
     height: 40px;
-    border-radius: 4px;
     border: 1px solid #ffffff;
     background-color: transparent;
-    width: 200px;
-    color: #ffffff;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    }
-        
-.footer__form-input::placeholder {
+    border-radius: 4px;
     color: #ffffff;
      }
-        
-.footer__form-btn {
-    display: flex;
+    
+.input-email::placeholder {
+    color: #ffffff;
+        }
+    
+.submit-button {
     min-width: 165px;
-    align-items: center;
+    height: 40px;
+    display: flex;
     justify-content: center;
-    flex-direction: row;
-    gap: 16px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    border-radius: 4px;
     letter-spacing: 0.04em;
-    height: 40px;
-    display: inline-flex;
-    align-items: center;
+    color: #ffffff;
+     cursor: pointer;
     background-color: #4d5ae5;
     border: none;
-    color: #ffffff;
-    cursor: pointer;
-}
+    border-radius: 4px;
+    }
+    
+.button-icon {
+    margin-left: 16px; 
+    fill: #ffffff;
+            }
         
 .footer__form-btn:hover {
     background-color: #31d0aa;
     }
-        
-.footer__form-icon {
-    fill: #ffffff; 
-    margin-left: 16px;
-            
-}
-                                        
+    
+                                   
  :root {
      --color-bg-modal: #fcfcfc;
      --color-backdrop: rgba(46, 47, 66, 0.4);
