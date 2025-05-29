@@ -785,7 +785,7 @@ img {
     margin-bottom: 8px;
  }
 
- .modal__group:last-of-type {
+ .modal__group-last {
      margin-bottom: 16px;
      }  
 
@@ -865,7 +865,7 @@ img {
      margin-bottom: 24px;
      display: flex;
      align-items: center;
-    border-color: #4D5AE5;
+   
  }
 
 
@@ -902,7 +902,6 @@ img {
      display: inline-flex;
      align-items: center;
      justify-content: center;
-     fill: transparent;
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
          border 250ms cubic-bezier(0.4, 0, 0.2, 1),
          fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
