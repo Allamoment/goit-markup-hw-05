@@ -928,6 +928,7 @@ img {
  .visually-hidden:checked+.checkbox-label .checkbox-span {
      background-color: var(--accent-color);
      border: none;
+     fill: #F4F4FD;;
  }
 
  .visually-hidden:checked+.checkbox-label .checkbox-icon {
