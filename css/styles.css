@@ -554,9 +554,7 @@ img {
     display: flex;
     flex-direction: column;
      align-items: flex-start;
-    
-    
-        }
+    }
     
 .footer-logo {
     font-family: 'Raleway', sans-serif;
@@ -587,6 +585,7 @@ img {
         }
     
 .footer-social-list {
+    margin-right: 10px;
     display: flex;
     gap: 16px;
     list-style: none;
@@ -655,6 +654,7 @@ img {
     background-color: transparent;
     font-size: 12px;
     line-height: 2;
+    padding: 10px;
     letter-spacing: 0.04em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -685,10 +685,7 @@ img {
     padding: 8px 24px;
         
      }
-     .footer-form-icon {
-        margin-left: 16px;
-
-     }
+    
    
 .footer-icon:hover {
     background-color: var(--iris);
