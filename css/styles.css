@@ -643,10 +643,11 @@ img {
         }        
 .footer-subscribe-form {
     display: flex;
+    flex-direction: column;
     gap: 24px;
-    justify-content: flex-end;
+    align-items: flex-start;
      }
-        
+
         
 .footer-input {
     width: 264px;
@@ -686,7 +687,10 @@ img {
     padding: 8px 24px;
         
      }
-        
+     .footer-form-icon {
+        margin-left: 16px;
+
+     }
    
 .footer-icon:hover {
     background-color: var(--iris);
@@ -803,7 +807,7 @@ img {
  .modal__label {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--light-slate);
     font-family: var(--font-family);
@@ -958,7 +962,9 @@ img {
 
 
  .modal-form-btn {
-    display: flex;
+    display: block;
+    height: 56px;
+    letter-spacing: 0.04em;
     justify-content: center;
     align-items: center;
     font-weight: 500;
