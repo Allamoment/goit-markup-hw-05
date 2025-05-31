@@ -585,7 +585,7 @@ img {
         }
     
 .footer-social-list {
-    margin-left: 60px;
+    gap: 24px;
     display: flex;
     list-style: none;
         }
