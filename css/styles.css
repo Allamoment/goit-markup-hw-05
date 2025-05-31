@@ -551,7 +551,7 @@ img {
         }
     
 .footer-social {
-    gap: 80px;
+    margin-right: 80px;
     display: flex;
     flex-direction: column;
      align-items: flex-start;
