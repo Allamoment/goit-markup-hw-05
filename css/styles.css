@@ -551,7 +551,6 @@ img {
         }
     
 .footer-social {
-    margin-right: 80px;
     display: flex;
     flex-direction: column;
      align-items: flex-start;
@@ -685,7 +684,9 @@ img {
     padding: 8px 24px;
         
      }
-    
+.footer-form-icon {
+    margin-left: 16px;
+}
    
 .footer-icon:hover {
     background-color: var(--iris);
