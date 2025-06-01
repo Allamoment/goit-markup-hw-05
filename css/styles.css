@@ -653,6 +653,7 @@ img {
 
 .footer-subscribe-form {
     display: flex;
+    gap: 24px;
      }
 
         
