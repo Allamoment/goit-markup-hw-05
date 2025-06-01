@@ -580,6 +580,7 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+    text-align: left;
         }
     
 .footer-social-list {
@@ -638,7 +639,8 @@ img {
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    text-align: left;
         }        
 
 .footer-subscribe-form {
