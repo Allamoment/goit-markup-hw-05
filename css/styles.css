@@ -538,8 +538,8 @@ img {
 
 .footer-container {
     display: flex;
-    padding: 0 15px;
-    align-items: center;
+    padding: 0 15px; 
+
     }
         
 .baseline {
@@ -637,7 +637,7 @@ img {
     margin-left: 80px;
     justify-content: start;
     position: relative;
-    gap: 16px;
+    transform: TranslateY(40px);
    
     }
         
