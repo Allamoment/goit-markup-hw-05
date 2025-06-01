@@ -638,8 +638,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    display: flex;
-    flex-direction: column;
     align-self: flex-start;
         }        
 
