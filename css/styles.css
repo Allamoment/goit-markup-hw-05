@@ -636,7 +636,7 @@ img {
 .footer-form-container {
     margin-left: 80px;
     justify-content: start;
-    gap: 16px;
+    position: relative;
    
     }
         
@@ -654,6 +654,7 @@ img {
 .footer-subscribe-form {
     display: flex;
     gap: 24px;
+    
      }
 
         
