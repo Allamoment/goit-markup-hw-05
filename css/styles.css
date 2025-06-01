@@ -535,17 +535,19 @@ img {
         }
     
 
-.baseline {
-    align-items: baseline;
-     }
-        
-.footer-wrapper {
+.footer-flex {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    margin-right: 120px;
-        
     }
+        
+.baseline {
+    align-items: baseline;
+    }
+        
+.footer-wrapper {
+    justify-content: space-between;
+    margin-right: 120px;       }
         
     .footer-social {
     display: flex;
