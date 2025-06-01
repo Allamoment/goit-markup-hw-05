@@ -641,7 +641,6 @@ img {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    text-align: left;
         }        
 
 .footer-subscribe-form {
