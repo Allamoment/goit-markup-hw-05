@@ -535,8 +535,10 @@ img {
         }
     
 
-.footer-conteiner {
+.footer-container {
     display: flex;
+    padding: 0 15px;
+    align-items: center;
     justify-content: space-between;
     }
         
@@ -545,6 +547,7 @@ img {
     }
         
 .footer-wrapper {
+    display: block;
     justify-content: space-between;
     margin-right: 120px;
     text-align: start;
@@ -552,6 +555,7 @@ img {
         
     .footer-social {
     display: flex;
+    align-items: center;
     flex-direction: column;
     align-self: flex-start;
         
