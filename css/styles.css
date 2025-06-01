@@ -635,8 +635,8 @@ img {
 
 .footer-form-container {
     margin-left: 80px;
-    display: flex;
     justify-content: start;
+    gap: 16px;
    
     }
         
@@ -652,7 +652,7 @@ img {
         }        
 
 .footer-subscribe-form {
-    flex-direction: row;
+    display: flex;
      }
 
         
