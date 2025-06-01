@@ -579,13 +579,13 @@ img {
         }
     
 .footer-text {
-    text-align: justify;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+    text-align: justify;
         }
     
 .footer-social-list {
@@ -645,8 +645,8 @@ img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    text-align: right;
         }        
+
 .footer-subscribe-form {
     display: flex;
     align-items: center;
