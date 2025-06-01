@@ -534,20 +534,15 @@ img {
     padding-bottom: 100px;
         }
     
-.footer-flex {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-        }
     
 .baseline {
     align-items: baseline;
         }
     
 .footer-wrapper {
+    display: flex;
+    align-items: baseline;
     justify-content: space-between;
-        align-items: flex-start;
-    
     
         }
     
@@ -585,7 +580,7 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    text-align: justify;
+    display: block;
         }
     
 .footer-social-list {
